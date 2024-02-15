@@ -6,7 +6,7 @@ Presently, there's a notable momentum in robotics towards advancing the developm
 
 ## Dataset description
 
-The dataset consists of three-channel images. The marking of objects was carried out through the Label Studio utility and gives the output in .json format, one file for all images. The object description is a bounding box, which is described by two points: the top left point and the bottom right point. Key points: point marking the center of the head - H. point marking the center of the abdomen - A.
+The dataset consists of three-channel images. The marking of objects was carried out through the [Label Studio](https://labelstud.io/) utility and gives the output in .json format, one file for all images. The object description is a bounding box, which is described by two points: the top left point and the bottom right point. Key points: point marking the center of the head - H. point marking the center of the abdomen - A.
 
 <img src="https://github.com/dataset-ninja/ant-2/assets/120389559/71439dc0-d7c8-4c7a-b05f-213418ae1b3a" alt="image" width="500">
 
