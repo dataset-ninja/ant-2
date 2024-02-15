@@ -22,10 +22,10 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.ODbL_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Industry.Livestock(),
-    Industry.Agricultural(),
+    Industry.Robotics(is_used=False),
+    Research.Biological(is_used=False),
 ]
-CATEGORY: Category = Category.Livestock()
+CATEGORY: Category = Category.Robotics(extra=Category.Biology())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -34,7 +34,7 @@ RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = 2023
 
-HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/elizamoscovskaya/ant-2-keypoints-dataset"
+HOMEPAGE_URL: str = "https://github.com/moskovskayaliza2002/ant_detection"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 14000778
@@ -58,7 +58,9 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
+    "Kaggle": "https://www.kaggle.com/datasets/elizamoscovskaya/ant-2-keypoints-dataset"
+}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Eliza Moscovskaya"]
