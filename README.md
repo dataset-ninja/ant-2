@@ -1,3 +1,3 @@
-# Ants
+# Ant Detection
 
-Ants is a dataset for object detection task.
+Ant Detection is a dataset for object detection task.
