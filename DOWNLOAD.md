@@ -1,6 +1,6 @@
 Dataset **Ant Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/0/m/sM/TgQ3VLnTy3wFmkZAMmy1lfBrQyGyfobcJlSz8Zjf762SzpegjQ3YF4gkQjq5qqb3ZDtiFpiO1oPqzbciOV1qS8FygB58aieauV0usWDybOtMKV7twGk1Vt66tyZb.tar)
+ [Download](https://www.dropbox.com/scl/fi/jmi2tcwo7hjakj8793au3/ant-detection-DatasetNinja.tar?rlkey=ekvhg2vjrgrrpcsjz2v41r0h6&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
